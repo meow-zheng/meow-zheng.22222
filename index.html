@@ -4,24 +4,34 @@
 <head>
     <meta charset="utf-8" />
     <title>^Meowz^</title>
-    <meta name=”viewport” content=”width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <link href="" rel="stylesheet" />
     <style>
-        *{font-family:'Microsoft YaHei';
+        * {
+            font-family: 'Microsoft YaHei';
         }
-        body {width:100%;font-size:1rem;
+        body {
+            width: 100%;
+            font-size: 1rem;
         }
-        a{color:gray;text-decoration:none;}
+        a {
+            color: gray;
+            text-decoration: none;
+        }
+        a:hover{text-decoration:none;}
         .wrapper {
             min-height: 100%;
         }
+       #head-pic{margin:10px auto;}
+        .center {text-align:center;
+        }
         nav {
-            background-color: #ffe699!important;
-            font-size:1.2rem;
+            background-color: #ffe699 !important;
+            font-size: 1.2rem;
         }
         #messagebox {
             border-radius: 10px;
@@ -29,19 +39,24 @@
             padding: 15px;
         }
         #S2 {
-            justify-content: center;text-align:center;
+            justify-content: center;
+            text-align: center;
         }
-        .box{justify-content:center;}
+        .box {
+            justify-content: center;
+        }
         .topicBox {
-            text-align:center;
-            border-radius:20px;
+            text-align: center;
+            border-radius: 20px;
             box-shadow: 1px 1px 5px gray;
             width: 150px;
             height: 150px;
-            margin:15px;
-            
+            margin: 15px;
         }
-        .topicBox p{font-weight:bold;}
+            .topicBox p {
+                font-weight: bold;
+            }
+        img{max-width:100%;width:auto;}
     </style>
 </head>
 <body>
@@ -83,16 +98,17 @@
         </nav>
         <div class="container-fluid">
           <!----第一區---->
-            <div id="S1" class="m-2">
-                <div id="messagebox" class="mx-auto col-12 col-md-12 col-xl-10 col-lg-10 ">
-                    這是一個網站，這個站主真的很懶，但是很喜歡喵咪喔。<br />
-                    站主暫時用這個網站記錄跟一群喜歡音樂的朋友一起成長的點點滴滴(ps.也是一群貓奴)<br />
-                    沒錯!那只好充滿喵喵ㄌ!
-                </div>
+            <div id="S1" class="m-2 center">
+                    <img id="head-pic" class="center " src="http://fakeimg.pl/800x450/282828/EAE0D0/?text=PJCHENder" alt="Alternate Text" />
+                    <div id="messagebox" class="mx-auto col-12 col-md-12 col-xl-10 col-lg-10 ">
+                        這是一個網站，這個站主真的很懶，但是很喜歡喵咪喔。<br />
+                        站主暫時用這個網站記錄跟一群喜歡音樂的朋友一起成長的點點滴滴(ps.也是一群貓奴)<br />
+                        沒錯!那只好充滿喵喵ㄌ!
+                    </div>
             </div>
             <div id="S2" class="m-2 ">
                 <div id="" class="mx-auto row box">
-                    <a class="topicBox ">
+                    <a href="" class="topicBox ">
                         <p>關於站主</p>
                     </a>
                     <div class="topicBox ">
@@ -103,6 +119,7 @@
                     </div>
                     <div class="topicBox ">
                         <p>關於站主</p>
+                        
                     </div>
                 </div>
             </div>
