@@ -9,34 +9,61 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-SD1L70B390"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-SD1L70B390');
+    </script>
     <link href="source/main.css" rel="stylesheet" />
     <style>
         * {
             font-family: 'Microsoft YaHei';
         }
-        body {background-image:url('images/bk.png');
+
+        body {
+            background-image: url('images/bk.png');
             width: 100%;
             font-size: 1rem;
         }
-        #about {background-image:url('images/about.png');        }
+
+        #about {
+            background-image: url('images/about.png');
+        }
+
         #experience {
-            background-image: url('images/ex.png');}
+            background-image: url('images/ex.png');
+        }
+
         #more {
             background-image: url('images/skill.png');
         }
+
         #page {
             background-image: url('images/page.png');
         }
+
         a {
             color: gray;
             text-decoration: none;
         }
-        a:hover{text-decoration:none;}
-        .wrapper {background-color:rgba(255, 255, 255,0.7);
+
+            a:hover {
+                text-decoration: none;
+            }
+
+        .wrapper {
+            background-color: rgba(255, 255, 255,0.7);
             min-height: 100%;
         }
-     
-        img{max-width:100%;width:auto;}
+
+        img {
+            max-width: 100%;
+            width: auto;
+        }
     </style>
 </head>
 <body>
@@ -129,12 +156,16 @@
                     <h4>關於我 About Me</h4><hr />
                         <div class="row ">
                              <div class="col-12 col-md-3 box"><img id="photo" src="images/photo.jpg" alt="Alternate Text" /></div>
-                             <div>Chang, Yu-Ting <br />
-                                  2019年畢業於台北市立大學學習與媒材設計學系。</div>
+                             <div>
+                                 Chang, Yu-Ting <br />
+                                 2019年畢業於台北市立大學學習與媒材設計學系—主打結合設計與教育，將數位媒體材料，結合教育，應用在教育學習上。<br />課程接觸過Adobe系列軟體(PS、AI)，也修習過演算法、網頁設計HTML5的課程，於是對數位媒體產生很大的興趣。
+                             </div>
                         </div>
                 </div>
-                <div class="content-box-inside">
+                <div id="ex-area">
+                  
                     <h4>相關經驗 Experience</h4><hr />
+                                            <div class="ex-box"> 三民書局數位企劃   2019 Oct ~   <hr /> 居中協調公司的數位產品問題、製作EDM、分析產品使用數據(Google Analytics)、維護學習網站，RWD使用介面更新，建設數位產品相關事務。<br />其中建設 <a href="#">教學霸</a>、<a href="#https://elearning.sanmin.com.tw/VOICE" target="_blank">音檔網站</a>網頁前端、介面規劃。</div>
 
                 </div>
                 <div class="content-box-inside">

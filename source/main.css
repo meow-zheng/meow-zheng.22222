@@ -25,7 +25,9 @@ nav {
     justify-content: center;
     text-align: center;
 }
-
+#ex-area {
+    background-color: lightpink;
+}
 .box {
     justify-content: center;
 }
@@ -50,7 +52,9 @@ nav {
 }
 #photo {width:150px;
 }
+
 #aboutme_box{background-color:; }
+.ex-box{box-shadow:1px 1px 5px gray;border-radius:20px;padding:15px;}
 @media (max-width:480px) {
     .content-box-inside {
         padding: 10px;
